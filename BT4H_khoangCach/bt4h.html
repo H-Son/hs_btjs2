@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+      integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
+      crossorigin="anonymous"
+    />
+    <title>BaiTap</title>
+  </head>
+  <body class="container text-center">
+    <h2>Khoảng Cách</h2>
+    <br/>
+    <label for="hoTenSV1">Họ tên sinh viên 1: </label>
+    <input type="text" id="hoTenSV1" style="width: 200px;" placeholder="Họ & Tên" />
+    <br/>
+    <label for="sinhVien1x">Tọa độ nhà của sinh viên 1:</label>
+    <span><input type="number" id="sinhVien1x" style="width: 60px;" placeholder="x" />&nbsp;;&nbsp;<input type="number" id="sinhVien1y" style="width: 60px;" placeholder="y" /></span>
+    <br/>
+    <br/>
+    <label for="hoTenSV2">Họ tên sinh viên 2: </label>
+    <input type="text" id="hoTenSV2" style="width: 200px;" placeholder="Họ & Tên" />
+    <br/>
+    <label for="sinhVien2x">Tọa độ nhà của sinh viên 2:</label>
+    <span><input type="number" id="sinhVien2x" style="width: 60px;" placeholder="x" />&nbsp;;&nbsp;<input type="number" id="sinhVien2y" style="width: 60px;" placeholder="y" /></span>
+    <br/>
+    <br/>
+    <label for="hoTenSV3">Họ tên sinh viên 3: </label>
+    <input type="text" id="hoTenSV3" style="width: 200px;" placeholder="Họ & Tên" />
+    <br/>
+    <label for="sinhVien3x">Tọa độ nhà của sinh viên 3:</label>
+    <span><input type="number" id="sinhVien3x" style="width: 60px;" placeholder="x" />&nbsp;;&nbsp;<input type="number" id="sinhVien3y" style="width: 60px;" placeholder="y" /></span>
+    <br/>
+    <br/>
+    <label for="truongx">Tọa độ trường:</label>
+    <span><input type="number" id="truongx" style="width: 60px;" placeholder="x" />&nbsp;;&nbsp;<input type="number" id="truongy" style="width: 60px;" placeholder="y" /></span>
+    <br /><br />
+    <button type="button" class="btn btn-info" onclick="khoangCach()">
+      Khoảng Cách
+    </button>
+    <br />
+    <br />
+    <h4 id="xuatKetQua"></h4>
+    <!-- <h4 id="xuatSoLe"></h4> -->
+    <script
+      src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+      integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+      integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+      integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./bt2.js"></script>
+  </body>
+</html>
